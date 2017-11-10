@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Karen Reyes">
+    <meta name="viewport" content="initial-scale=1, maximumum=scale=1", width=device-width>
+    <meta name="description" content="Educacion">
+    <meta name="keywords" content="Educacion,Curriculum">
+    <title>Hoja de Vida -- Karen Reyes -- Educacion</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="#Inicio">Hoja de Vida</h1>
+      <svg  width= "160" height="110" viewbox="0 0 160 110">
+        <image width = "150px" height="100px" xlinK:href= "../img/Logo.svg"></image>
+      </svg>
+
+      <h2>Datos Personales:</h2>
+      <h3> Nombres      : Karen Yulissa </br>
+           Apellidos    : Reyes Euceda </br>
+           Lugar        : El Progreso, Yoro, Honduras C.A.</br>
+           Fecha        : 1987 - Sep - 04
+      </h3>
+    </header>
+
+
+    <navBar id="#EnlacesMenu">
+        <ul>
+          <li><a href="../html/index.html">Inicio</a></li>
+          <li><a href="../html/educacion.html">Educación</a></li>
+          <li><a href="../html/experiencia.html">Experiencia</a></li>
+        </ul>
+    </navBar>
+
+
+    <section>
+        <article id ="#Institucion">
+          <h2>Educación : </h2>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Año</th>
+                  <th>Institucion</th>
+                  <th>Lugar</th>
+                  <th>¿Culminó?</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>1998</td>
+                  <td>Escuela Rural Mixta Palos Blancos</td>
+                  <td>Finca Breck</td>
+                  <td>SI</td>
+                </tr>
+                <tr>
+                  <td>2005</td>
+                  <td>Instituto Manuel Diaz Palma</td>
+                  <td>El Progreso, Yoro</td>
+                  <td>SI</td>
+                </tr>
+                <tr>
+                  <td>2012</td>
+                  <td>Universidad Tecnologica de Honduras|</td>
+                  <td>El Progreso, Yoro</td>
+                  <td>SI</td>
+                </tr>
+              </tbody>
+
+              <tfoot>
+              </tfoot>
+            </table>
+            <br>
+        </article id="#Institucion">
+
+
+        <article id ="#Formulario">
+
+        <form autocomplete="on" nombre="Formulario de Estudios">
+            <fieldset>
+
+              <legend><strong> Agregar Estudios : </strong></legend>
+
+              <label for="anio"><b>Año : </b></label>
+              <select>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+                <option>2012</option>
+                <option>2011</option>
+                <option>2010</option>
+                <option>2009</option>
+                <option>2008</option>
+                <option>2007</option>
+                <option>2006</option>
+              </select>
+              </br>
+
+              <strog>
+              <label for="Institucion"><b>Institucion : </b></label></strong><input type="text" name="Institucion" required placeholder ="Ej : Instituto Privado Renacer">
+              </br>
+              <label for="Otro"><b>Lugar : </b></label><textarea name="lugar" rows="2" cols="20" required></textarea>
+              </br>
+              <label for="culmino"><b>¿Culmino?</b></label><input type="radio" name="culmino" value="0" required>SI<input type="radio" name="culmino" value="0">NO
+              </br>
+              <input type="submit" name="submit" value="Enviar">
+            </fieldset>
+          </form>
+        </article id="#Formulario">
+
+    </section>
+
+    <footer>
+      <p>Email: euceda.yulissa@example.com | Teléfono: 9625-0000 | Dirección: Honduras C.A.</p>
+    </footer>
+
+  </body>
+</html>
